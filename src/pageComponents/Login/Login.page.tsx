@@ -2,9 +2,11 @@ import Link from "next/link";
 import React from "react";
 
 import { UserAuthForm } from "./molecules/UserAuthForm";
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import { useServerTranslation } from "~/i18n";
 
 const ContactUsCard = async () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useServerTranslation();
 
   return (
@@ -19,6 +21,7 @@ const ContactUsCard = async () => {
 };
 
 export const Login = async () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useServerTranslation();
 
   return (

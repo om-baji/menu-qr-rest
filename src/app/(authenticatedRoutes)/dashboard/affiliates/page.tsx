@@ -1,3 +1,4 @@
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import { useServerTranslation } from "~/i18n";
 import { DashboardHeader } from "~/pageComponents/Dashboard/molecules/Header";
 import { DashboardShell } from "~/pageComponents/Dashboard/molecules/Shell";
@@ -5,6 +6,7 @@ import { DashboardShell } from "~/pageComponents/Dashboard/molecules/Shell";
 export const dynamic = 'force-dynamic';
 
 export default async function Page() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useServerTranslation();
   
   return (

@@ -18,9 +18,6 @@ import {
 } from "./MenuPrintCreator.schema";
 import { saveFormValuesToCookies } from "./MenuPrintCreator.common";
 
-// Add this import at the top
-import { getBaseUrl } from "~/utils/getBaseUrl";
-
 export const MenuPrintCreatorPage = ({
   slug,
   initialCookiesFormValues,

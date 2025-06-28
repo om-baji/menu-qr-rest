@@ -1,4 +1,5 @@
 import Image from "next/image";
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import { useServerTranslation } from "~/i18n";
 import { Navbar } from "~/components/Navbar/Navbar";
 import { Button } from "~/components/ui/button";
@@ -16,6 +17,7 @@ const poppins = Poppins({
 });
 
 export const LandingPage = async () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useServerTranslation();
 
   return (

@@ -6,7 +6,6 @@ import { LoadingScreen } from "~/components/Loading";
 import { Button } from "~/components/ui/button";
 import { useToast } from "~/components/ui/use-toast";
 import { api } from "~/trpc/react";
-import { getBaseUrl } from "~/utils/getBaseUrl";
 import { DefaultLanguagesSelector } from "./molecules/DefaultLanguageSelector/DefaultLanguageSelector";
 import { getDefaultLanguage } from "~/utils/getDefaultLanguage";
 import { LanguagesSelector } from "./molecules/LanguagesSelector/LanguagesSelector";
