@@ -1,8 +1,10 @@
 import React from "react";
 import { UserAuthForm } from "./molecules/UserAuthForm";
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import { useServerTranslation } from "~/i18n";
 
 export const Register = async () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useServerTranslation();
 
   return (

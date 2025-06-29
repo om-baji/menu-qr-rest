@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { Navbar } from "~/components/Navbar/Navbar";
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import { useServerTranslation } from "~/i18n";
 
 export default async function NotFound() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = await useServerTranslation();
 
   return (

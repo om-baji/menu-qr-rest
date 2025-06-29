@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import Link from "next/link";
 
 import {
   AlertDialog,
@@ -17,7 +16,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
 import { Icons } from "~/components/Icons";
@@ -51,12 +49,6 @@ export function MenuOperations({ menuId: menuId }: MenuOperationProps) {
           <span className="sr-only">{t("menuOperations.open")}</span>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
-          {/* <DropdownMenuItem>
-          <Link href={`/menu/edit/${menuId}`} className="flex w-full">
-              {t("menuOperations.editMenu")}
-            </Link>
-          </DropdownMenuItem>
-          <DropdownMenuSeparator /> */}
           <DropdownMenuItem
             className="flex cursor-pointer items-center text-destructive focus:text-destructive"
             onSelect={() => setShowDeleteAlert(true)}
