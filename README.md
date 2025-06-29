@@ -121,4 +121,5 @@ I know, that's a rare request to have. Check out [this](https://github.com/Jaane
 - LinkedIn: [@https://www.linkedin.com/in/lukaszcybulski/](https://www.linkedin.com/in/lukaszcybulski/)
 
 👤 **Patryk Szczurowski**
+
 - Github: [@patryiku](https://github.com/patryiku)

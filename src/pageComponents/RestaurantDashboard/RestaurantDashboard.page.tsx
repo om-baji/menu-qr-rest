@@ -163,7 +163,10 @@ export const RestaurantDashboard = ({
             {t("restaurantDashboard.yourQRCode")}
           </p>
           <div className="flex flex-col gap-4">
-            <QRCode size={200} value={`https://testing-code-puce.vercel.app/menu/${data.slug}`} />
+            <QRCode
+              size={200}
+              value={`https://testing-code-puce.vercel.app/menu/${data.slug}`}
+            />
             <Button
               onClick={() => router.push(`/menu/manage/${slug}/menu`)}
               className="w-full"

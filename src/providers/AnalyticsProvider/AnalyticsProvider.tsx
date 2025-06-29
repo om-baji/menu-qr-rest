@@ -10,7 +10,7 @@ export const AnalyticsProvider = () => <Analytics />;
 export const UmamiAnalyticsProvider = () => {
   return env.NEXT_PUBLIC_UMAMI_WEBSITE_ID ? (
     <Script
-    src={env.NEXT_PUBLIC_UMAMI_URL}
+      src={env.NEXT_PUBLIC_UMAMI_URL}
       data-website-id={env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
       strategy="lazyOnload"
     />
