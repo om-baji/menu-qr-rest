@@ -127,23 +127,22 @@ All sensitive configuration is managed via the `.env` file. Key variables includ
    ```sh
    pnpm install
    ```
-2. **If the above command does not work**   
-    ```sh
+3. **If the above command does not work**
+
+   ```sh
    npm install -g pnpm
    ```
 
-
-
-3. **Copy the .env.example into .env and fill out the envs**
-4. **Run database migrations**
+4. **Copy the .env.example into .env and fill out the envs**
+5. **Run database migrations**
    ```sh
    pnpm prisma migrate deploy
    ```
-5. **Start the development server**
+6. **Start the development server**
    ```sh
    pnpm dev
    ```
-6. **Access the app**
+7. **Access the app**
    - Visit `http://localhost:3000` in your browser.
 
 ---
@@ -170,14 +169,19 @@ All sensitive configuration is managed via the `.env` file. Key variables includ
 ## Run these initial commands 🧑‍💻
 
 Every time you change something on local instance:
+
 ```sh
 pnpm prepare:local
 ```
+
 If you develop on cloud supabase run:
+
 ```sh
 pnpm prepare:remote
 ```
+
 To run the project:
+
 ```sh
 pnpm dev
 ```
@@ -248,6 +252,7 @@ I know, that's a rare request to have. Check out [this](https://github.com/Jaane
 - LinkedIn: [@https://www.linkedin.com/in/lukaszcybulski/](https://www.linkedin.com/in/lukaszcybulski/)
 
 👤 **Patryk Szczurowski**
+
 - Github: [@patryiku](https://github.com/patryiku)
 
 ---

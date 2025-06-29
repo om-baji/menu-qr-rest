@@ -11,8 +11,11 @@ const createPremiumCheckoutSchema = z.object({
   language: z.enum(["en", "pl"]),
 });
 
-const FEASTQR_DASHBOARD_URL = process.env.FEASTQR_DASHBOARD_URL || "https://www.feastqr.com/dashboard";
-const FEASTQR_YWWW_DASHBOARD_URL = process.env.FEASTQR_YWWW_DASHBOARD_URL || "https://ywww.feastqr.com/dashboard";
+const FEASTQR_DASHBOARD_URL =
+  process.env.FEASTQR_DASHBOARD_URL || "https://www.feastqr.com/dashboard";
+const FEASTQR_YWWW_DASHBOARD_URL =
+  process.env.FEASTQR_YWWW_DASHBOARD_URL ||
+  "https://ywww.feastqr.com/dashboard";
 
 const checkoutTranslations: Record<"en" | "pl", LemonsqueezyProductOptions> = {
   en: {
