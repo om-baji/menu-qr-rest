@@ -37,22 +37,22 @@ const config = {
   async redirects() {
     return [
       {
-        source: '/privacy-policy',
-        destination: 'https://tryhards.space/privacy-policy',
+        source: "/privacy-policy",
+        destination: "https://tryhards.space/privacy-policy",
         permanent: true,
       },
       {
-        source: '/terms-of-service',
-        destination: 'https://tryhards.space/terms-of-service',
+        source: "/terms-of-service",
+        destination: "https://tryhards.space/terms-of-service",
         permanent: true,
       },
       {
-        source:'/return-policy',
-        destination: 'https://tryhards.space/return-policy',
+        source: "/return-policy",
+        destination: "https://tryhards.space/return-policy",
         permanent: true,
-      }
-    ]
-  }
+      },
+    ];
+  },
 };
 
 export default withSentryConfig(withSentryConfig(withSentryConfig(withSentryConfig(config, {

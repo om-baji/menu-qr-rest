@@ -24,9 +24,7 @@ const signInWithOauth = (provider: Provider) => {
     provider: provider,
     options: { redirectTo: `${window.location.origin}/dashboard` },
   });
-}; 
-
-
+};
 
 export function UserAuthForm() {
   const { t } = useTranslation();
